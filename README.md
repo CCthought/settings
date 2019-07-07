@@ -1,2 +1,2 @@
-# settings
-settings for some softwares like sublime text and idea ...
+## 这是一个配置文件
+   主要记录自己相关软件的配置，比如sublime Text and  IDEA 或其他，这样即使到了另一个环境也能够快速适应。
