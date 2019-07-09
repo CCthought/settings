@@ -1,0 +1,30 @@
+ctrl+shift+f/导航栏Find下       类似于IDEA中的ctrl+H
+ctrl+p/导航栏Goto下             类似于IDEA中的ctrl+shift+r       在该项目中查找某个指定文件
+ctrl+r/导航栏Goto下             类似于IDEA中的ctrl+o             查看该文件的所有方法
+
+Home   			将光标移动至行首
+End	   			将光标移动至行尾
+Shift+Home		选中当前行（从行首到光标处）
+Shift+End		选中当前行（从行尾到光标处）
+
+
+
+书签：
+	ctrl+F2   打断点 （同一行中，按两次ctrl+F2，即可取消断点）
+	F2 		  移至下一个断点
+	Shift+F2  移至上一个断点
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

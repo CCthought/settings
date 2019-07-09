@@ -1,0 +1,35 @@
+[
+	/**
+	 * ctrl+d和ctrl+shift+k互换
+	 * 注意ctrl+shift+k实际使用频率不高
+	 * ctrl+shift+k：选择光标所在的文本后，可同时操作其他相同文本内容，常用于修改所有相同文本操作
+	 * String name = "adai";
+	 * System.out.println("adai");
+	 * 鼠标双击adai，然后按住ctrl+shift+k,就可以将文件中所有的adai同时更改
+	 */
+	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["ctrl+shift+k"], "command": "find_under_expand" },
+	/**
+	 * 和ctrl+shift+down一样的效果 将该行文本移至下一行
+	 * 不过在Sublime Text默认的快捷键中 alt+dwon没有被使用
+	 * 因此不必设置ctrl+shift+down 
+	 */	
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	
+	/**
+	 * 将ctrl+enter和shift+enter互换
+	 * 自己在文本中试试这两个快捷键就明白了
+	 * 互换的目的是为了保持和IDEA一样
+	 */
+ 	{ "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+	{ "keys": ["ctrl+enter"], "command": "insert", "args": {"characters": "\n"} },
+	/**
+	 * 和ctrl+shift+d一样的效果 将当前行复制到下一行
+	 * ctrl+alt+down原来的效果几乎没有什么作用
+	 * 因此直接覆盖原来的效果
+	 */
+	{ "keys": ["ctrl+alt+down"], "command": "duplicate_line" },
+
+]
+
