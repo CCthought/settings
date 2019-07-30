@@ -1,0 +1,10 @@
+1. 将ctrl+D 和 ctrl+shift+k 互换
+	ctrl+D 			原来的功能是 Add Selection To Next Find Math 类似于ctrl+F的查找
+	ctrl+shift+k    删除一行
+
+2. 将ctrl+alt+↓/↑ 和 shift+alt+↑/↓ 交换
+	ctrl+alt+↓/↑    原来的功能是 Add Cursor Below/Above	
+	shift+alt+↓/↑   将当前行复制并移动至 下一行/上一行
+
+3. 将ctrl+enter改成shift+enter
+注意： 现在的shift+enter 在两种情况下使用  ①editorTextFocus&editorReadonly    ②inSettingsSearch  
